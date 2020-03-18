@@ -7,6 +7,7 @@
 #include <vector>
 #include <cmath>
 #include <climits>
+#include <string>
 using namespace std;
 
 struct Put{
