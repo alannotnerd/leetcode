@@ -5,11 +5,15 @@
 #include <queue>
 #include <stack>
 #include <vector>
+#include <cmath>
+#include <climits>
 using namespace std;
 
 struct Put{
   template<typename T>
-  void operator() (const T& t){};
+  void operator() (const T& t){
+    cout << t << endl;
+  };
 
   template<typename T>
   void operator() (const vector<T, allocator<T>>& vec){
