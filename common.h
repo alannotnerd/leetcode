@@ -26,3 +26,4 @@ struct Put{
 };
 
 Put put;
+#define TEST
